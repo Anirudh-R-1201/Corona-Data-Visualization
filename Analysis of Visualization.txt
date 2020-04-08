@@ -1,0 +1,33 @@
+Data got from: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/
+Has track of numbered cases sice 22 January to 7 April (77 days)
+
+Model Predictions for cases: Models used - SVM (degree 7, via trial and error), Polynomial Regression, Bayesian Ridge PR
+SVM provides most accurate of the three
+
+Corona cases v time seems to Exponential, but the log10 graph shows that the curve is flattening(slowing down) worldwide
+The per day histogram concurs with this log10 graph
+
+5 Case studies countires: China(Origin), India(MyCountry), Italy, Spain(Worst Affected via NEWS sources), USA(Most Cases)
+
+Individually:
+China: Seems to be in full control of situation right now after early spikes
+India: Spikes have just started
+Italy: In regression phase of the cases per day
+USA: In the peakregion in cases per day
+Spain: Slowly regressing in cases per day
+
+Collective Plot:
+China have succesfully flattened and India either is not yet at the spike or have controlled well before.
+Spain and Italy have similar curves and assuming similar healthcare systems and facilities, should have similar oucomes in the post-corona time
+USA is in very bad shape as to how the situation looks like
+
+NOTE: Since the worldiwide flattening has not been achieved all the predictions tend to infinty.
+SVM data predicts 3401571 cases by end of this current week
+
+Mortality rate has gone from below 0.035 to close to 0.55. This could be due to the ever increasing number of patients and the lack of equipments and helthcare facilities.
+However this is concerning since the virus has still not been contained and a 0.055 mortality on current active cases is a death toll of 4,400+
+Similarly the recovery rates have dropped below 0.25, supporting said analysis. The recovery spike around day 45 could be due to peak efficiency of hospitals which overtime would draon out staff and supplies
+
+US currently has over 25% of yhe active cases. 
+Bahamas has the highest mortality of 0.17.
+Italy has most deaths and China has most recoverires
